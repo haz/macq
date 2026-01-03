@@ -32,3 +32,4 @@ class ParameterBoundFluent:
     def ground(self, objects: List[PlanningObject]):
         ...
         # return Fluent(self.name, objects)
+        # simply replace the bounded params with actual objects. validate that object type/sort is of the param type.
